@@ -1,0 +1,19 @@
+# Node.js / Dependencies
+node_modules/
+npm-debug.log
+
+# Environment Variables
+.env
+*.env.local
+
+# Build Outputs
+/backend/dist/
+/frontend/build/
+
+# Logs
+*.log
+logs/
+
+# OS and Editor Files
+.DS_Store
+.vscode/
