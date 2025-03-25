@@ -1,11 +1,9 @@
-services
+version: "3.8"
+services:
   mongodb:
-    image: mongo
+    image: 'mongo:4.4.18'
     volumes: 
-      - data: /data/db
-    # environment:
-    #   MONGO_INIT_ROOT_USERNAME: den
-    #   MONGO_INIT_ROOT_PASSWORD: 330
+      - data:/data/db
     env_file:
       - ./env/mongo.env
   backend:
@@ -20,7 +18,7 @@ services
       - ./env/backend.env
     depends_on:
         - mongodb
-  frontend:
+  # frontend:
 
 volumes:
   data:

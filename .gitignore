@@ -4,6 +4,7 @@ npm-debug.log
 
 # Environment Variables
 .env
+*.env
 *.env.local
 
 # Build Outputs
