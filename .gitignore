@@ -8,8 +8,8 @@ npm-debug.log
 *.env.local
 
 # Build Outputs
-/backend/dist/
-/frontend/build/
+backend/dist/
+frontend/build/
 
 # Logs
 *.log
